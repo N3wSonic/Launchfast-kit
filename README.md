@@ -36,12 +36,41 @@ LaunchFast Kit provides a **ready-to-use backend starter** so you can start buil
 - MongoDB user management
 - Clean backend architecture
 
+## SaaS Subscription Flow
+
+User
+ ↓
+API (Node.js / Express)
+ ↓
+Stripe Checkout
+ ↓
+Stripe Webhook
+ ↓
+Database update
+ ↓
+User gets premium access
+
 ## Tech Stack
 
 - Node.js
 - Express
 - MongoDB
 - Stripe
+
+## What this saves you
+
+Without a starter kit, building a SaaS backend requires implementing:
+
+• authentication system  
+• Stripe subscriptions  
+• webhook handling  
+• subscription state management  
+• cancel subscription logic  
+• billing portal  
+
+This can easily take **1–2 days of work**.
+
+LaunchFast Kit gives you a working foundation instantly.
 
 ## Full Version
 
